@@ -1,0 +1,10 @@
+C:\Users\012722695\Desktop\Lectures-master\Lectures-master\WPF\Othello\src\Cecs475.Othello.Model\bin\Debug\Cecs475.Othello.Model.dll
+C:\Users\012722695\Desktop\Lectures-master\Lectures-master\WPF\Othello\src\Cecs475.Othello.Model\bin\Debug\Cecs475.Othello.Model.pdb
+C:\Users\012722695\Desktop\Lectures-master\Lectures-master\WPF\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.csproj.CoreCompileInputs.cache
+C:\Users\012722695\Desktop\Lectures-master\Lectures-master\WPF\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.dll
+C:\Users\012722695\Desktop\Lectures-master\Lectures-master\WPF\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.pdb
+C:\Users\darrell\Desktop\Othello\Othello\src\Cecs475.Othello.Model\bin\Debug\Cecs475.Othello.Model.dll
+C:\Users\darrell\Desktop\Othello\Othello\src\Cecs475.Othello.Model\bin\Debug\Cecs475.Othello.Model.pdb
+C:\Users\darrell\Desktop\Othello\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.csproj.CoreCompileInputs.cache
+C:\Users\darrell\Desktop\Othello\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.dll
+C:\Users\darrell\Desktop\Othello\Othello\src\Cecs475.Othello.Model\obj\Debug\Cecs475.Othello.Model.pdb
