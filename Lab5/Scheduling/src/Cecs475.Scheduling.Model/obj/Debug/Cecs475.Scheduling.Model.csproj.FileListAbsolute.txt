@@ -1,0 +1,11 @@
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\Cecs475.Scheduling.Model.dll.config
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\Cecs475.Scheduling.Model.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\Cecs475.Scheduling.Model.pdb
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\EntityFramework.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\EntityFramework.xml
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\obj\Debug\Cecs475.Scheduling.Model.csprojResolveAssemblyReference.cache
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\obj\Debug\Cecs475.Scheduling.Model.csproj.CoreCompileInputs.cache
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\obj\Debug\Cecs475.Scheduling.Model.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Cecs475.Scheduling.Model\obj\Debug\Cecs475.Scheduling.Model.pdb

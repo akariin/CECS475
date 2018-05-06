@@ -1,0 +1,14 @@
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Test.exe.config
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Test.exe
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Test.pdb
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Cecs475.Scheduling.Model.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\EntityFramework.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Cecs475.Scheduling.Model.pdb
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\Cecs475.Scheduling.Model.dll.config
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\EntityFramework.xml
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\obj\Debug\Test.exe
+C:\Users\darrell\Desktop\Lectures-master\EntityFramework\Scheduling\src\Test\obj\Debug\Test.pdb
