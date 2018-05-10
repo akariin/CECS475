@@ -12,8 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
+using RestSharp.Deserializers;
 
 namespace Cecs475.Scheduling.RegistrationApp
 {
@@ -51,7 +53,8 @@ namespace Cecs475.Scheduling.RegistrationApp
 
         private void mRegisterBtn_Click(object sender, RoutedEventArgs e)
         {
-            string[] courseSplit = mCourseText.Text.Split('-');
+            string course = mCourseText.SelectedItem.ToString();
+            string[] courseSplit = course.Split('-');
             int sectionNum = Convert.ToInt32(courseSplit[1]);
             string[] nameSplit = courseSplit[0].Split(' ');
 
@@ -73,7 +76,8 @@ namespace Cecs475.Scheduling.RegistrationApp
                     StudentId = (int)obj["Id"],
                     CourseSection = new
                     {
-                        SemesterTermId = 2, // hard-code Fall 2017
+                        //SemesterTermId = 2, // hard-code Fall 2017
+                        SemesterTermId = ((SemesterTermDto) mSemesterList.SelectedItem).Id,
                         CatalogCourse = new
                         {
                             DepartmentName = nameSplit[0],
@@ -98,7 +102,8 @@ namespace Cecs475.Scheduling.RegistrationApp
 
         private async void mAsyncBtn_Click(object sender, RoutedEventArgs e)
         {
-            string[] courseSplit = mCourseText.Text.Split('-');
+            string course = mCourseText.SelectedItem.ToString();
+            string[] courseSplit = course.Split('-');
             int sectionNum = Convert.ToInt32(courseSplit[1]);
             string[] nameSplit = courseSplit[0].Split(' ');
 
@@ -143,7 +148,8 @@ namespace Cecs475.Scheduling.RegistrationApp
                     StudentId = (int)obj["Id"],
                     CourseSection = new
                     {
-                        SemesterTermId = 2, // hard-code Fall 2017
+                        //SemesterTermId = 2, // hard-code Fall 2017
+                        SemesterTermId = ((SemesterTermDto)mSemesterList.SelectedItem).Id,
                         CatalogCourse = new
                         {
                             DepartmentName = nameSplit[0],
@@ -181,12 +187,8 @@ namespace Cecs475.Scheduling.RegistrationApp
             var client = new RestClient(ViewModel.ApiUrl);
             var request = new RestRequest("api/schedule/{id}", Method.GET);
             request.AddUrlSegment("id", item.Id.ToString());
-            var response = await client.ExecuteTaskAsync<List<CourseSectionDto>>(request);
-            ViewModel.CourseSection = response.Data;
-
-            //var response = await client.ExecuteTaskAsync(request);
-            //var content = (IEnumerable<CourseSectionDto>) JObject.Parse(response.Content);
-            //ViewModel.CourseSection = content;
+            var response = await client.ExecuteTaskAsync(request);
+            ViewModel.CourseSection = JsonConvert.DeserializeObject<List<CourseSectionDto>>(response.Content);
         }
     }
 }
